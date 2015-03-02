@@ -1,0 +1,29 @@
+<div id="header">
+    WOODEN BOARD
+</div>
+<div ng-controller="GameCtrl">
+    <div id="name">
+        Your Name: <input type="text" name="user" id="userField" value="John Doe"
+                          ng-model="user" />
+        <select ng-model="currentGame" ng-change="setCurrentGame(currentGame)"
+                ng-options="r.name for r in rooms"></select>
+    </div>
+
+    <div id="Game">
+        <div class=" game" ng-repeat="play in plays | limitTo:-10"
+             ng-class="play.user !== user ? 'others' : ''"
+             data-ng-show="hidden == false" data-ng-hide="hidden == true"
+             data-ng-animate="'fadeIn'"><br/>
+            <strong> says: </strong><br/>
+        </div>
+    </div>
+
+    <div id="footer">
+        <form ng-submit="submitPlay()">
+            Say something: <input type="text" name="play" id="textField"
+                                  ng-model="inputText" />
+            <input type="button" id="saySomething" value="Submit"
+                   ng-click="submitPlay()" />
+        </form>
+    </div>
+</div>
