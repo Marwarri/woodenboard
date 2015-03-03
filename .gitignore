@@ -13,3 +13,13 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+/bin/
+bin/
+data/
+db/
+dist/
+logs/
+test-result/
+lib/
+tmp/
+modules/

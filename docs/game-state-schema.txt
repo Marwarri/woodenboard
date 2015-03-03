@@ -1,0 +1,68 @@
+{
+	// identifies this game on the server.
+	game_id: "game:004332",
+
+	// Signifies the active player and their available options.
+	active:{
+		player: "player:player1",
+		phase: "action",
+		options: [{
+			// identifies the option, pass this to the backend to execute.
+			id: "someid",
+			name: "Village",
+			
+			// The card in the game that is being referenced by this action.
+			// Some options will not have applicable cards, so those options will not
+			// have this field.
+			reference-id: "card:dominion:village:01",
+		}, ... ],
+	},
+	state:{
+		players:[{
+			id: "player:player1",
+			name: "Chris",
+			decks:[{
+				name: "hand",
+				cards:[{
+					// Identifies this instance of the card.
+					id: "card:dominion:village:01",
+					
+					// References a type in the "types" section below.  This allows
+					// us to specify a card type once and share that definition across
+					// many cards.
+					type: "card:dominion:village",
+				}, ... ],
+			},
+			{
+				name: "draw",
+				cards:[
+					Card::{ }, ...
+				],
+			},
+			{
+				name: "discard",
+				cards:[
+					Card::{ }, ...
+				],
+			}, ... ],
+		}, ... ],
+		common:{
+			decks:[{
+				name: "Village",
+				cards:[
+					Card::{ }, ...
+				],
+			}, ... ],
+		},
+	},
+	types:[{
+		type: "card:dominion:village",
+		name: "Village",
+		text: "Something",
+		cost: 3,
+		value: 0,
+		victory_points: 0
+		type: "Action",
+		source: "Base",
+	}, ... ]
+}

@@ -1,0 +1,626 @@
+{
+	game_id:"game:002383",
+	
+	active:{
+		player: "player:player1",
+		phase: "action",
+		options: [{
+			id: "dominion:action:end_turn",
+			name: "End Turn",
+		},
+		{
+			id: "dominion:action:all_coins",
+			name: "All Coins",
+		}],
+	},
+	state:{
+		players:[{
+			id: "player:4592994",
+			name: "Chris",
+			decks:[{
+				name: "hand",
+				cards:[{
+					id: "dominion:card:copper:001",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:002",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:003",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:004",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:005",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:estate:004",
+					type: "dominion:card:estate",
+				}],
+			},
+			{
+				name: "draw",
+				cards:[{
+					id: "dominion:card:copper:006",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:007",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:estate:001",
+					type: "dominion:card:estate",
+				},
+				{
+					id: "dominion:card:estate:002",
+					type: "dominion:card:estate",
+				},
+				{
+					id: "dominion:card:estate:003",
+					type: "dominion:card:estate",
+				}],
+			},
+			{
+				name: "discard",
+				cards:[],
+			}],
+		},
+		{
+			id: "player:004991",
+			name: "Colin",
+			decks:[{
+				name: "hand",
+				cards:[{
+					id: "dominion:card:copper:008",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:009",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:010",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:011",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:012",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:estate:005",
+					type: "dominion:card:estate",
+				}],
+			},
+			{
+				name: "draw",
+				cards:[{
+					id: "dominion:card:copper:013",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:copper:014",
+					type: "dominion:card:copper",
+				},
+				{
+					id: "dominion:card:estate:006",
+					type: "dominion:card:estate",
+				},
+				{
+					id: "dominion:card:estate:007",
+					type: "dominion:card:estate",
+				},
+				{
+					id: "dominion:card:estate:008",
+					type: "dominion:card:estate",
+				}],
+			},
+			{
+				name: "discard",
+				cards:[],
+			}],
+		}],
+		common:{
+			decks:[{
+				name: "Village",
+				cards:[{
+					id: "dominion:card:village:001",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:002",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:003",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:004",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:005",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:006",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:007",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:008",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:009",
+					type: "dominion:card:village", 
+				},
+				{
+					id: "dominion:card:village:010",
+					type: "dominion:card:village", 
+				}],
+			},
+			{
+				name: "Smithy",
+				cards:[{
+					id: "dominion:card:smithy:001",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:002",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:village:003",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:004",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:005",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:006",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:007",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:008",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:009",
+					type: "dominion:card:smithy", 
+				},
+				{
+					id: "dominion:card:smithy:010",
+					type: "dominion:card:smithy", 
+				}],
+			},
+			{
+				name: "Woodcutter",
+				cards:[{
+					id: "dominion:card:woodcutter:001",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:002",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:003",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:004",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:005",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:006",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:007",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:008",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:009",
+					type: "dominion:card:woodcutter", 
+				},
+				{
+					id: "dominion:card:woodcutter:010",
+					type: "dominion:card:woodcutter", 
+				}],
+			},
+			{
+				name: "Copper",
+				cards:[{
+					id: "dominion:card:copper:001",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:002",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:003",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:004",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:005",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:006",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:007",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:008",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:009",
+					type: "dominion:card:copper", 
+				},
+				{
+					id: "dominion:card:copper:010",
+					type: "dominion:card:copper", 
+				}],
+			},
+			{
+				name: "Silver",
+				cards:[{
+					id: "dominion:card:silver:001",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:002",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:003",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:004",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:005",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:006",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:007",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:008",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:009",
+					type: "dominion:card:silver", 
+				},
+				{
+					id: "dominion:card:silver:010",
+					type: "dominion:card:silver", 
+				}],
+			},
+			{
+				name: "Gold",
+				cards:[{
+					id: "dominion:card:gold:001",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:002",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:003",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:004",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:005",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:006",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:007",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:008",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:009",
+					type: "dominion:card:gold", 
+				},
+				{
+					id: "dominion:card:gold:010",
+					type: "dominion:card:gold", 
+				}],
+			},
+			{
+				name: "Estate",
+				cards:[{
+					id: "dominion:card:estate:001",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:002",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:003",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:004",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:005",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:006",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:007",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:008",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:009",
+					type: "dominion:card:estate", 
+				},
+				{
+					id: "dominion:card:estate:010",
+					type: "dominion:card:estate", 
+				}],
+			},
+			{
+				name: "Duchy",
+				cards:[{
+					id: "dominion:card:duchy:001",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:002",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:003",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:004",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:005",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:006",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:007",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:008",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:009",
+					type: "dominion:card:duchy", 
+				},
+				{
+					id: "dominion:card:duchy:010",
+					type: "dominion:card:duchy", 
+				}],
+			},
+			{
+				name: "Provence",
+				cards:[{
+					id: "dominion:card:provence:001",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:002",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:003",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:004",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:005",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:006",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:007",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:008",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:009",
+					type: "dominion:card:provence", 
+				},
+				{
+					id: "dominion:card:provence:010",
+					type: "dominion:card:provence", 
+				}],
+			},
+			{
+				name: "Trash",
+				cards:[],
+			}],
+		},
+	},
+	types:[{
+		type: "dominion:card:copper",
+		name: "Copper",
+		image: "copper.jpeg",
+		text: "Something",
+		cost: 0,
+		value: 1,
+		victory_points: 0,
+		type: "Coin",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:estate",
+		name: "Estate",
+		image: "estate.jpeg",
+		text: "Something",
+		cost: 2,
+		value: 0,
+		victory_points: 2,
+		type: "Victory",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:silver",
+		name: "Silver",
+		image: "silver.jpeg",
+		text: "Something",
+		cost: 3,
+		value: 2,
+		victory_points: 0,
+		type: "Coin",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:gold",
+		name: "Gold",
+		image: "gold.jpeg",
+		text: "Something",
+		cost: 6,
+		value: 3,
+		victory_points: 0,
+		type: "Coin",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:duchy",
+		name: "Duchy",
+		image: "duchy.jpeg",
+		text: "Something",
+		cost: 5,
+		value: 0,
+		victory_points: 3,
+		type: "Victory",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:provence",
+		name: "Provence",
+		image: "provence.jpeg",
+		text: "Something",
+		cost: 8,
+		value: 0,
+		victory_points: 6,
+		type: "Victory",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:smithy",
+		name: "Smithy",
+		image: "smithy.jpeg",
+		text: "Something",
+		cost: 4,
+		value: 0,
+		victory_points: 0,
+		type: "Action",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:woodcutter",
+		name: "Woodcutter",
+		image: "woodcutter.jpeg",
+		text: "Something",
+		cost: 3,
+		value: 0,
+		victory_points: 0,
+		type: "Action",
+		source: "Base",
+	},
+	{
+		type: "dominion:card:village",
+		name: "Village",
+		image: "village.jpeg",
+		text: "Something",
+		cost: 3,
+		value: 0,
+		victory_points: 0,
+		type: "Action",
+		source: "Base",
+	}]
+}
