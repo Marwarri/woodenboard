@@ -1,0 +1,92 @@
+{
+  "dominion:card:copper": {
+    "name": "Copper",
+    "image": "copper.jpeg",
+    "text": "Something",
+    "cost": 0,
+    "value": 1,
+    "victory_points": 0,
+    "card_class": "Coin",
+    "source": "Base"
+  },
+  "dominion:card:estate": {
+    "name": "Estate",
+    "image": "estate.jpeg",
+    "text": "Something",
+    "cost": 2,
+    "value": 0,
+    "victory_points": 2,
+    "card_class": "Victory",
+    "source": "Base"
+  },
+  "dominion:card:silver": {
+    "name": "Silver",
+    "image": "silver.jpeg",
+    "text": "Something",
+    "cost": 3,
+    "value": 2,
+    "victory_points": 0,
+    "card_class": "Coin",
+    "source": "Base"
+  },
+  "dominion:card:gold": {
+    "name": "Gold",
+    "image": "gold.jpeg",
+    "text": "Something",
+    "cost": 6,
+    "value": 3,
+    "victory_points": 0,
+    "card_class": "Coin",
+    "source": "Base"
+  },
+  "dominion:card:duchy": {
+    "name": "Duchy",
+    "image": "duchy.jpeg",
+    "text": "Something",
+    "cost": 5,
+    "value": 0,
+    "victory_points": 3,
+    "card_class": "Victory",
+    "source": "Base"
+  },
+  "dominion:card:provence": {
+    "name": "Provence",
+    "image": "provence.jpeg",
+    "text": "Something",
+    "cost": 8,
+    "value": 0,
+    "victory_points": 6,
+    "card_class": "Victory",
+    "source": "Base"
+  },
+  "dominion:card:smithy": {
+    "name": "Smithy",
+    "image": "smithy.jpeg",
+    "text": "Something",
+    "cost": 4,
+    "value": 0,
+    "victory_points": 0,
+    "card_class": "Action",
+    "source": "Base"
+  },
+  "dominion:card:woodcutter": {
+    "name": "Woodcutter",
+    "image": "woodcutter.jpeg",
+    "text": "Something",
+    "cost": 3,
+    "value": 0,
+    "victory_points": 0,
+    "card_class": "Action",
+    "source": "Base"
+  },
+  "dominion:card:village": {
+    "name": "Village",
+    "image": "village.jpeg",
+    "text": "Something",
+    "cost": 3,
+    "value": 0,
+    "victory_points": 0,
+    "card_class": "Action",
+    "source": "Base"
+  }
+}

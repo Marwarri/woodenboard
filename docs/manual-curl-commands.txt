@@ -1,0 +1,5 @@
+curl \
+  --header "Content-type: application/json" \
+  --request POST \
+  --data '{"playerId": "player:4592994", "optionId": "dominion:action:all_coins:001"}' \
+  http://localhost:9000/state/game%3A002383
